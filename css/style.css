@@ -7,6 +7,10 @@
     font-family: Hacked;
     src: url(https://hackedfont.com/HACKED.ttf);
 }
+span [alt="loog"]{
+  width: 100px;
+  height: 50px;
+}
 .offcanvas-title{
     font-family: Hacked;
     color: #E5A1FC;
@@ -157,6 +161,16 @@
     border-top: 1px solid #E5A1FC;
     color:#E5A1FC ;
 }
+.icons{
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(196, 195, 195);
+}
+
+.icons a:hover {
+  color: rgb(255, 0, 0);
+}
 .links{
     margin-left:auto;
     display: flex;
@@ -167,13 +181,7 @@
     color: #E5A1FC;
     display: block;
 }
-.socials{
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    display: inline-flex;
-    margin-left: -12px;
-}
+
 @media (max-width: 800px) {
     .links{
         margin: 0 auto;
